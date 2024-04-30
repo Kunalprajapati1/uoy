@@ -265,46 +265,7 @@ const Footer = () => {
                 </a>
               </h1>
             </div>
-            {/* conatct */}
-            {/* <div>
-              <h6 className="mb-4 text-xl text-white   flex justify-center font-semibold uppercase md:justify-start">
-                Contact/Sugesstions
-              </h6>
-              <form action="#" className="space-y-8">
-                <div>
-                  <input
-                    type="email"
-                    id="email"
-                    className="shadow-sm bg-[#454444bb] text-white  border border-gray-300  text-sm rounded-lg  block w-full p-2.5  "
-                    placeholder="name@flowbite.com"
-                    required
-                  />
-                </div>
-                <div>
-                  <input
-                    type="text"
-                    id="subject"
-                    className="block p-3 bg-[#454444bb] w-full text-sm  text-white  rounded-lg border border-gray-300 shadow-sm   "
-                    placeholder="Let us know how we can help you"
-                    required
-                  />
-                </div>
-                <div className="sm:col-span-2">
-                  <textarea
-                    id="message"
-                    rows="3"
-                    className="block bg-[#454444bb] p-2.5 w-full text-sm text-white   rounded-lg shadow-sm border border-gray-300   dark:border-gray-600 dark:placeholder-gray-400  dark:focus:border-primary-500"
-                    placeholder="Leave a comment..."
-                  ></textarea>
-                </div>
-                <button
-                  type="submit"
-                  className="py-2 bg-[#f26522]   ml-3   font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
-                >
-                  <h1 className=" font-scnd bg-  px-20 ">Send message</h1>
-                </button>
-              </form>
-            </div> */}
+            
           </div>
         </div>
 

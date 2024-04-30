@@ -1,5 +1,5 @@
 import React from 'react'
-import CoreTeam from '../Team/CoreTeam'
+// import CoreTeam from '../Team/CoreTeam'
 
 const Objective = () => {
   return (

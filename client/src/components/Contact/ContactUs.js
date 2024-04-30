@@ -353,22 +353,23 @@ const ContactUs = (props) => {
                                 data-original="#000000"
                               ></path>
                             </svg>
-                            <a
+                            {/* <a
                               href="javascript:void(0)"
                               className="text-current text-sm ml-3"
                             >
                               <strong>+91 9600722059</strong>
-                            </a>
+                            </a> */}
                           </li>
                         </ul>
                       </div>
                       <div className="z-10 relative h-full max-md:min-h-[350px]">
-                        <iframe
-                          src="https://maps.google.com/maps?q=UNITY%20OF%20YOUTH%20FOUNDATION&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                          className="absolute inset-0 h-full w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg"
-                          frameborder="0"
-                          allowfullscreen
-                        ></iframe>
+                      <iframe
+  src="https://maps.google.com/maps?q=UNITY%20OF%20YOUTH%20FOUNDATION&t=&z=13&ie=UTF8&iwloc=&output=embed"
+  title="Map showing the location of UNITY OF YOUTH FOUNDATION"
+  className="absolute inset-0 h-full w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg"
+  frameborder="0"
+  allowfullscreen
+/>
                       </div>
                     </div>
                   </div>

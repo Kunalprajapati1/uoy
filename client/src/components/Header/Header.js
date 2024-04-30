@@ -1,16 +1,16 @@
 import React, { useState, useRef, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { AiOutlineClose } from "react-icons/ai";
-import { FaArrowRight } from "react-icons/fa";
+// import { FaArrowRight } from "react-icons/fa";
 // import { NavLink } from "react-router-dom";
-import { MdKeyboardArrowDown } from "react-icons/md";
+// import { MdKeyboardArrowDown } from "react-icons/md";
 import { motion } from "framer-motion";
 import { HiMenuAlt4 } from "react-icons/hi";
 
 const Header = () => {
   const [menu, setMenu] = useState(false);
-  const [showModal, setShowModal] = useState(false);
-  const [signinModal, setsigninModal] = useState(false);
+  const [ setShowModal] = useState(false);
+  // const [signinModal, setsigninModal] = useState(false);
   const [showDropdown, setShowDropdown] = useState(false);
   const dropdownRef = useRef(null);
 
