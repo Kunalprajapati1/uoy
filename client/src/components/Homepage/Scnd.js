@@ -5,11 +5,10 @@ import Vision from "./Vision";
 
 const Scnd = () => {
   const [isVolunteerHovered] = useState(false);
-  const [isDonatorHovered] = useState(false);
+  // const [isDonatorHovered] = useState(false);
   useEffect(() => {
-    window.scrollTo(0, 0); // Scrolls to the top when component mounts
-  }, []); // Empty dependency array ensures this effect runs only once after initial render
-
+    window.scrollTo(0, 0);
+  }, []); 
   const handleLinkClick = () => {
     window.scrollTo(0, 0); // Scrolls to the top when a link in "Quick Links" is clicked
   };
@@ -45,11 +44,7 @@ const Scnd = () => {
                 evolved into a registered foundation, committed to serving Tamil
                 Nadu's diverse communities through impactful initiatives.
               </h1>
-              {/* <img
-                src="images/t.jpg"
-                alt="not found"
-                className="w-[500px] hover:opacity-85 shadow-2xl shadow-black  "
-              /> */}
+            
             </div>
             <div className=" md:flex justify-center p-10 md:p-20 ">
               <img
@@ -84,22 +79,12 @@ const Scnd = () => {
         <h1 className="py-2 font-main text-center font-bold text-2xl text-[#f26522] ">
           | Register yourself
         </h1>
-        {/* <h1 className="font-scnd font-medium text-justify text-lg p-8 mt-10">
-          Unity of Youth Foundation (UOY), established in 2007 by NSS Volunteers,
-          aims to extend community service beyond college. Registered under the
-          government, it operates throughout Tamil Nadu, fostering societal
-          benefits. The logo, depicting geese flying in unity, symbolizes
-          collaboration, transparency, and humility within the foundation.
-          Guided by these values, UOY strives for collective empowerment and
-          positive change. Its vibrant orange and calming blue colors represent
-          youthful zeal, wisdom, and innovation in community involvement.
-        </h1> */}
+        
         <div className="mt-20 md:flex justify-center gap-10">
           <NavLink
             to="/VolunteerRegistration"
             onClick={handleLinkClick}
-            // onMouseEnter={() => setIsVolunteerHovered(true)}
-            // onMouseLeave={() => setIsVolunteerHovered(false)}
+       
           >
             <div className="bg-[#f26522] md:p-28 p-10 hover:shadow-black shadow-inner border-2 border-[#f26522] hover:bg-[#f26522] hover:text-white transition ease-in-out rounded-2xl">
               <h1 className="md:text-4xl text-center font-main font-bold">
@@ -113,19 +98,18 @@ const Scnd = () => {
               </h1>
 
               {isVolunteerHovered && (
-                <p className="text-center text-sm text-gray-500 mt-8">
+                <div className="text-center text-sm text-gray-500 mt-8">
                   <h1 className="text-2xl font-bold font-main text-black">
                     Proceed to Volunteer →
                   </h1>
-                </p>
+                </div>
               )}
             </div>
           </NavLink>
           <NavLink
             to="/Donate"
             onClick={handleLinkClick}
-            // onMouseEnter={() => setIsDonatorHovered(true)}
-            // onMouseLeave={() => setIsDonatorHovered(false)}
+          
           >
             <div className="hover:bg-[#5e6aa0d7] border-2 md:mt-0 mt-10  md:p-28 p-10 hover:shadow-black shadow-inner border-[#5e6aa0d7] bg-[#5e6aa0d7] hover:text-white transition ease-in-out rounded-2xl">
               <h1 className="md:text-4xl text-center font-main font-bold">
@@ -138,12 +122,12 @@ const Scnd = () => {
                 Proceed to Donate →
               </h1>
 
-              {isDonatorHovered && (
-                <p className="text-center text-sm text-[black] mt-8">
+              {isVolunteerHovered && (
+                <div className="text-center text-sm text-gray-500 mt-8">
                   <h1 className="text-2xl font-bold font-main text-black">
                     Proceed to Donate →
                   </h1>
-                </p>
+                </div>
               )}
             </div>
           </NavLink>

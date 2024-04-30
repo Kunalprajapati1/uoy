@@ -9,16 +9,7 @@ const VisionMission = () => {
     
 
       <div className="mt-0 ">
-      {/* <h1 className="py-2 text-left w-full font-main font-bold text-6xl text-[#f45c43]">
-            | Vission & Mission
-          </h1>
-          <div className=" mt-10 ">
-         <img
-            src="images/r.jpg"
-            className=" h-[450px] w-full  "
-            alt="not found"
-          />   
-        </div> */}
+      
         <div className='relative  h-[400px] '>
           <video src='videos/t.mp4' autoPlay={true} loop muted className='absolute top-0 opaci left-0 h-[400px] w-full object-cover'/>
           <div className='absolute top-0 left-0 w-full h-full bg-[#f2642200] opacity-50'></div> {/* Orange overlay */}

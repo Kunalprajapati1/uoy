@@ -15,11 +15,7 @@ const VMBlock = () => {
           alt="not found"
         />
         <div className="absolute inset-0 flex justify-center items-center">
-          {/* <div className="px-40 bg-[#f0f0f0] bg-opacity-80">
-            <h1 className="py-2 font-main font-bold text-5xl text-left text-[#f45c43]">
-              | Vision & Mission
-            </h1>
-          </div> */}
+         
         </div>
         <div className="absolute md:p-0 p-6 md:mt-40 inset-0 md:flex justify-center items-center">
           <div className="mt-20 md:px-40 gap-20">

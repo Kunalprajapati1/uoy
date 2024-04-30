@@ -112,9 +112,7 @@ const ContactUs = (props) => {
               <Fade top distance="20%">
                 <div class=" md:p-20  font-main ">
                   <div class="  text-center sm:text-center md:mx-auto ">
-                    {/* <p class="md:text-4xl font-semibold uppercase tracking-wide text-gray-900 dark:text-green-200">
-                      Contact
-                    </p> */}
+                   
                     <h2 class="md:p-20 font-main text-4xl p-10  font-bold tracking-tight  text-[#000000] md:drop-shadow-[4px_3px_var(--tw-shadow-color)] shadow-[#5b715e98] dark:text-white md:text-7xl sm:text-5xl">
                       Reach out to us easily – we're just a message away!
                     </h2>
