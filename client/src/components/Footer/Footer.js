@@ -130,141 +130,125 @@ const Footer = () => {
           <h6 className="mb-4 text-xl  text-white  md:flex justify-center font-semibold uppercase md:justify-start">
             Quick Links
           </h6>
-          <h1 className="mb-4">
-            <NavLink to="/" onClick={handleLinkClick}>
-              <h2 className="hover:text-[#d9d7d7] text-[#a4a4a4] transition ease-in-out">
-                Home
-              </h2>
-            </NavLink>
-          </h1>
-          <h1 className="mb-4">
-            <NavLink to="/AboutUs" onClick={handleLinkClick}>
-              <h2 className="hover:text-[#d9d7d7] text-[#a4a4a4] transition ease-in-out">
-                About Us
-              </h2>
-            </NavLink>
-          </h1>
-          <h1 className="mb-4">
-            <NavLink to="/ContactUs" onClick={handleLinkClick}>
-              <h2 className="hover:text-[#d9d7d7] text-[#a4a4a4] transition ease-in-out">
-                Contact Us
-              </h2>
-            </NavLink>
-          </h1>
-          <h1 className="mb-4">
-            <NavLink to="/VisionMission" onClick={handleLinkClick}>
-              <h2 className="hover:text-[#d9d7d7] text-[#a4a4a4] transition ease-in-out">
-               Vission Mission
-              </h2>
-            </NavLink>
-          </h1>
-          <h1 className="mb-4">
-            <NavLink to="/VolunteerRegistration" onClick={handleLinkClick}>
-              <h2 className="hover:text-[#d9d7d7] text-[#a4a4a4] transition ease-in-out">
-               Volnteer Registration
-              </h2>
-            </NavLink>
-          </h1>
-          <h1 className="mb-4">
-            <NavLink to="/Donate" onClick={handleLinkClick}>
-              <h2 className="hover:text-[#d9d7d7] text-[#a4a4a4] transition ease-in-out">
-              Donate
-              </h2>
-            </NavLink>
-          </h1>
-          <h1 className="mb-4">
-            <NavLink to="/CoreTeam" onClick={handleLinkClick}>
-              <h2 className="hover:text-[#d9d7d7] text-[#a4a4a4] transition ease-in-out">
-              Core Team
-              </h2>
-            </NavLink>
-          </h1>
-          {/* <h1>
-            <NavLink to="/Gallery" onClick={handleLinkClick}>
-              <h1 className="hover:text-[#d9d7d7] text-[#a4a4a4] transition ease-in-out">
-                Gallery
+              <h1 className="mb-4">
+                <NavLink to="/" onClick={handleLinkClick} className="hover:text-[#d9d7d7] text-[#a4a4a4] transition ease-in-out">
+                  Home
+                </NavLink>
               </h1>
-            </NavLink>
-          </h1> */}
+         
+          <h1 className="mb-4">
+  <NavLink to="/AboutUs" onClick={handleLinkClick} className="hover:text-[#d9d7d7] text-[#a4a4a4] transition ease-in-out">
+    About Us
+  </NavLink>
+</h1>
+<h1 className="mb-4">
+  <NavLink to="/ContactUs" onClick={handleLinkClick} className="hover:text-[#d9d7d7] text-[#a4a4a4] transition ease-in-out">
+    Contact Us
+  </NavLink>
+</h1>
+<h1 className="mb-4">
+  <NavLink to="/VisionMission" onClick={handleLinkClick} className="hover:text-[#d9d7d7] text-[#a4a4a4] transition ease-in-out">
+    Vision Mission
+  </NavLink>
+</h1>
+<h1 className="mb-4">
+  <NavLink to="/VolunteerRegistration" onClick={handleLinkClick} className="hover:text-[#d9d7d7] text-[#a4a4a4] transition ease-in-out">
+    Volunteer Registration
+  </NavLink>
+</h1>
+<h1 className="mb-4">
+  <NavLink to="/Donate" onClick={handleLinkClick} className="hover:text-[#d9d7d7] text-[#a4a4a4] transition ease-in-out">
+    Donate
+  </NavLink>
+</h1>
+<h1 className="mb-4">
+  <NavLink to="/CoreTeam" onClick={handleLinkClick} className="hover:text-[#d9d7d7] text-[#a4a4a4] transition ease-in-out">
+    Core Team
+  </NavLink>
+</h1>
+
+       
         </div>
-            {/* links */}
-            <div className="md:ml-[200x] text-left   md:mt-0 mt-10  w-full ">
-              <h6 className="mb-4 text-xl  text-white  md:flex justify-center font-semibold uppercase md:justify-start">
-                Useful links
-              </h6>
-              <h1 className="mb-4 text-left flex items-center justify-center md:justify-start">
-                <span className="me-3 [&>svg]:h-5 [&>svg]:w-5">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                  >
-                    <path d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
-                    <path d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
-                  </svg>
-                </span>
-                <h2 className="hover:text-[#d9d7d7] text-[#a4a4a4] transition ease-in-out">
-                  {" "}
-                  Sivaji Ganeshan Street, 3/191, Thiruthangal Rd, S.N.Puram,
-                  Sivakasi, Tamil Nadu 62613{" "}
-                </h2>
-              </h1>
-              <h1 className="mb-4 text-left flex items-center  md:justify-start">
-                <span className="me-3 [&>svg]:h-5 [&>svg]:w-5">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                  >
-                    <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
-                    <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
-                  </svg>
-                </span>
-                <h2 className="hover:text-[#d9d7d7] text-[#a4a4a4] transition ease-in-out">
-                  {" "}
-                  unityofyouthofficial@gmail.com
-                </h2>
-              </h1>
-              <h1 className="mb-4 text-left flex items-center  md:justify-start">
-                <span className="me-3 text-left [&>svg]:h-5 [&>svg]:w-5">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </span>
-                <h2 className="hover:text-[#d9d7d7] text-[#a4a4a4] transition ease-in-out">
-                  {" "}
-                  +91 96007 22059{" "}
-                </h2>
-              </h1>
-              <h1 className="mb-4 text-left flex items-center  md:justify-start">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                  className="w-4 h-4 mr-6" // Added margin-right to create a gap
-                >
-                  <path fill="none" d="M0 0h24v24H0z" />
-                  <path d="M12 2c-4.42 0-8 3.58-8 8s8 14 8 14s8-10 8-14s-3.58-8-8-8zm0 11.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5s2.5 1.12 2.5 2.5s-1.12 2.5-2.5 2.5zm0-8a3.5 3.5 0 00-3.5 3.5c0 1.74 3.5 4.5 3.5 4.5s3.5-2.76 3.5-4.5a3.5 3.5 0 00-3.5-3.5z" />
-                </svg>
-                <a
-                  href="https://maps.app.goo.gl/MXp45y6HwpcUTdGa6"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <h2 className="hover:text-[#d9d7d7] text-[#a4a4a4] transition ease-in-out">
-                    Get the Directions
-                  </h2>
-                </a>
-              </h1>
-            </div>
+
+          
+
+<div className="md:ml-[200px] text-left md:mt-0 mt-10 w-full">
+  <h6 className="mb-4 text-xl text-white md:flex justify-center font-semibold uppercase md:justify-start">
+    Useful links
+  </h6>
+  <h1 className="hover:text-[#d9d7d7] text-[#a4a4a4] transition ease-in-out">
+  <span className="me-3">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      className="w-5 h-5"
+    >
+      <path d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
+      <path d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
+    </svg>
+  </span>
+
+    Sivaji Ganeshan Street, 3/191, Thiruthangal Rd, S.N.Puram, Sivakasi,
+    Tamil Nadu 62613
+
+</h1>
+  <h1 className="mb-4 flex items-center justify-start">
+    <span className="me-3">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+        className="w-5 h-5"
+      >
+        <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
+        <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
+      </svg>
+    </span>
+
+      unityofyouthofficial@gmail.com
+    
+  </h1>
+  <h1 className="mb-4 flex items-center justify-start">
+    <span className="me-3">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+        className="w-5 h-5"
+      >
+        <path
+          fillRule="evenodd"
+          d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z"
+          clipRule="evenodd"
+        />
+      </svg>
+    </span>
+
+      +91 96007 22059
+
+  </h1>
+  <h1 className="mb-4 flex items-center justify-start">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="currentColor"
+      viewBox="0 0 24 24"
+      className="w-4 h-4 mr-6"
+    >
+      <path fill="none" d="M0 0h24v24H0z" />
+      <path d="M12 2c-4.42 0-8 3.58-8 8s8 14 8 14s8-10 8-14s-3.58-8-8-8zm0 11.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5s2.5 1.12 2.5 2.5s-1.12 2.5-2.5 2.5zm0-8a3.5 3.5 0 00-3.5 3.5c0 1.74 3.5 4.5 3.5 4.5s3.5-2.76 3.5-4.5a3.5 3.5 0 00-3.5-3.5z" />
+    </svg>
+    <a
+      href="https://maps.app.goo.gl/MXp45y6HwpcUTdGa6"
+      target="_blank"
+      rel="noreferrer"
+      className="hover:text-[#d9d7d7] text-[#a4a4a4] transition ease-in-out"
+    >
+      Get the Directions
+    </a>
+  </h1>
+</div>
+
             
           </div>
         </div>
