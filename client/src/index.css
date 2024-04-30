@@ -1,0 +1,85 @@
+
+.with-bg-size {
+  background-image: url("https://lh3.googleusercontent.com/p/AF1QipPL5_u_gC8rPZL1OrfOq3cos3o7DXXPQfXufdud=s1360-w1360-h1020");
+
+  background-position: center;
+  background-size: cover;
+  /* opacity: 1; */
+  /* filter: blur(2px); */
+  -webkit-animation: back 10s infinite; /* Safari 4+ */
+  -moz-animation: back 25s infinite; /* Fx 5+ */
+  -o-animation: back 20s infinite; /* Opera 12+ */
+  animation: back 32s infinite; /* IE 10+, Fx 29+ */
+}
+/* The Keyframes*/
+@keyframes back {
+  25% {
+    background-image: url("https://lh3.googleusercontent.com/p/AF1QipOLuJ8kXHJlmHtY3wa6AQdy9eroJ2AWYd6XOyQo=s1360-w1360-h1020");
+  }
+  50% {
+    background-image: url("https://lh3.googleusercontent.com/p/AF1QipO6ew81Lu_QQeAwBuUVpAmpGgoNltd1L07A8VtR=s1360-w1360-h1020");
+  }
+
+  75% {
+    background-image: url("https://lh3.googleusercontent.com/p/AF1QipN_Wq6vutJxg7-LqNy4birAmA-4swB_kv4sMNJ7=s1360-w1360-h1020");
+  }
+  105% {
+    background-image: url("https://lh3.googleusercontent.com/p/AF1QipPxDpn9NWWUdIjtEZaDedDRcIQ7Fg0mBhGjN5Ec=s1360-w1360-h1020");
+  }
+  135% {
+    background-image: url("https://lh3.googleusercontent.com/p/AF1QipNIS-aXgeOufd4T7SDi3sBl3DguAX_8owjYMtQh=s1360-w1360-h1020");
+  }
+  15% {
+    background-image: url("https://lh3.googleusercontent.com/p/AF1QipPxDpn9NWWUdIjtEZaDedDRcIQ7Fg0mBhGjN5Ec=s1360-w1360-h1020");
+  }
+  155% {
+    background-image: url("https://lh3.googleusercontent.com/p/AF1QipMwVQsZQ6U6-NWYz--MrAlvbfFTvOeGPfs6tlAB=s1360-w1360-h1020");
+  }
+
+  /* Animation Does Not End At 100% Because It Makes The Images Transition In/Out Better For Some Reason*/
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+/* 
+background: #EB3349;  /* fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #F45C43, #EB3349);  Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to right, #F45C43, #EB3349); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Gruppo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Gruppo&family=Rubik+Doodle+Shadow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alkatra&family=Cookie&family=Foldit&family=Yeseva+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alkatra&family=Cookie&family=Foldit&family=Yeseva+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alkatra&family=Boogaloo&family=Cookie&family=Foldit&family=Rubik+Pixels&family=Yeseva+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alkatra&family=Boogaloo&family=Cookie&family=Foldit&family=Rubik+Pixels&family=Source+Sans+Pro:wght@200&family=Yeseva+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=WindSong&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=WindSong&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -3px; /* adjust this value based on your design */
+  width: 100%;
+  height: 2px;
+  background-color: white; /* Change this to whatever color you want */
+  opacity: 0; /* Initially hide the underline */
+  transition: opacity 0.2s ease; /* Add a smooth transition effect */
+}
+
+.nav-link:hover::after, /* Show the underline on hover */
+.nav-link.active-link::after { /* Show the underline on active link */
+  opacity: 1;
+}
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
