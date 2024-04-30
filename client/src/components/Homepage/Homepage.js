@@ -6,19 +6,54 @@ import { NavLink } from "react-router-dom";
 
 const Homepage = () => {
   const [typedText, setTypedText] = useState('');
-  const fullText = [
-    "Unity of Youth Foundation Welcomes You",
-    // Add more text here if needed
-  ];
+  // const fullText = [
+  //   "Unity of Youth Foundation Welcomes You",
+  //   // Add more text here if needed
+  // ];
   const typingSpeed = 250; // Adjust typing speed here
   const erasingSpeed = 80; // Adjust erasing speed here
   const pauseBetweenTexts = 8500; // Adjust pause between texts here
 
+  // useEffect(() => {
+  //   let currentIndex = 0;
+  //   let currentText = '';
+  //   let isTyping = true; // Flag to indicate whether currently typing or erasing
+
+  //   const intervalId = setInterval(() => {
+  //     if (isTyping) {
+  //       // Typing
+  //       if (currentText.length < fullText[currentIndex].length) {
+  //         currentText = fullText[currentIndex].substring(0, currentText.length + 1);
+  //         setTypedText(currentText);
+  //       } else {
+  //         isTyping = false; // Switch to erasing mode
+  //         setTimeout(() => {
+  //           isTyping = true; // Switch back to typing mode
+  //         }, pauseBetweenTexts);
+  //       }
+  //     } else {
+  //       // Erasing
+  //       if (currentText.length > 0) {
+  //         currentText = currentText.substring(0, currentText.length - 1);
+  //         setTypedText(currentText);
+  //       } else {
+  //         isTyping = true; // Switch back to typing mode
+  //         currentIndex = (currentIndex + 1) % fullText.length; // Move to the next text
+  //       }
+  //     }
+  //   }, isTyping ? typingSpeed : erasingSpeed); // Use typing speed or erasing speed based on mode
+
+  //   return () => clearInterval(intervalId);
+  // }, []); // Empty dependency array to run this effect only once
   useEffect(() => {
+    const fullText = [
+      "Unity of Youth Foundation Welcomes You",
+      // Add more text here if needed
+    ];
     let currentIndex = 0;
     let currentText = '';
     let isTyping = true; // Flag to indicate whether currently typing or erasing
-
+  
     const intervalId = setInterval(() => {
       if (isTyping) {
         // Typing
@@ -42,9 +77,10 @@ const Homepage = () => {
         }
       }
     }, isTyping ? typingSpeed : erasingSpeed); // Use typing speed or erasing speed based on mode
-
+  
     return () => clearInterval(intervalId);
   }, []); // Empty dependency array to run this effect only once
+  
 
   return (
     <>

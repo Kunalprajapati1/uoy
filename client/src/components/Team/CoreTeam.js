@@ -1,22 +1,22 @@
 import React from 'react';
 import coremembers from './Coreteam-data';
 import CoreProfileCard from './CoreProfileCard';
-import { BsInstagram, BsGithub } from "react-icons/bs";
+import { BsInstagram } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 import { NavLink } from 'react-router-dom';
 const CoreTeam = () => {
-  const chunkArray = (arr, size) => {
-    return arr.reduce((chunks, el, i) => {
-      if (i % size === 0) {
-        chunks.push([el]);
-      } else {
-        chunks[chunks.length - 1].push(el);
-      }
-      return chunks;
-    }, []);
-  };
+  // const chunkArray = (arr, size) => {
+  //   return arr.reduce((chunks, el, i) => {
+  //     if (i % size === 0) {
+  //       chunks.push([el]);
+  //     } else {
+  //       chunks[chunks.length - 1].push(el);
+  //     }
+  //     return chunks;
+  //   }, []);
+  // };
 
-  const chunkedCoreMembers = chunkArray(coremembers, 3);
+  // const chunkedCoreMembers = chunkArray(coremembers, 3);
   return (
     <>
       <div className="relative ">

@@ -15,7 +15,7 @@ const VolunteerRegistration = () => {
   const [VolunteerPhone, setVolunteerPhone] = useState("");
   const [VolunteerBloodGroup, setVolunteerBloodGroup] = useState("");
   const [VolunteerAddress, setVolunteerAddress] = useState("");
-  const [DonationAmount, setDonationAmount] = useState("");
+  // const [DonationAmount, setDonationAmount] = useState("");
   const dispatch = useDispatch();
 
   const submitVolunteerRegistration = async (e) => {

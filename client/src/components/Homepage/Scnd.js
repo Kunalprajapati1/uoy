@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
-import Caraousal from "./Caraousal";
+// import Caraousal from "./Caraousal";
 import Vision from "./Vision";
 
 const Scnd = () => {
-  const [isVolunteerHovered, setIsVolunteerHovered] = useState(false);
-  const [isDonatorHovered, setIsDonatorHovered] = useState(false);
+  const [isVolunteerHovered] = useState(false);
+  const [isDonatorHovered] = useState(false);
   useEffect(() => {
     window.scrollTo(0, 0); // Scrolls to the top when component mounts
   }, []); // Empty dependency array ensures this effect runs only once after initial render

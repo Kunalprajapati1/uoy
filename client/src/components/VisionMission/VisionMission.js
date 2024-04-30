@@ -1,6 +1,6 @@
 import React from "react";
 import VMBlock from "./VMBlock";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 const VisionMission = () => {
   return (

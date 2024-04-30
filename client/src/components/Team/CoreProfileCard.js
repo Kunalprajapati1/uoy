@@ -1,8 +1,8 @@
 import React from 'react';
-import { BsInstagram, BsGithub } from "react-icons/bs";
+import { BsInstagram } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 import { NavLink } from 'react-router-dom';
-import coremembers from './Coreteam-data';
+// import coremembers from './Coreteam-data';
 
 const CoreProfileCard = ({coredata}) => {
   return (
