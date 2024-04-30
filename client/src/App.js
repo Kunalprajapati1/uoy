@@ -4,7 +4,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import Homepage from "./components/Homepage/Homepage";
-import Gallery from "./components/Gallery/Gallery";
+// import Gallery from "./components/Gallery/Gallery";
 import AboutUs from "./components/About/AboutUs";
 import ContactUs from "./components/Contact/ContactUs";
 import Notification from "./components/Notification/Notification";
